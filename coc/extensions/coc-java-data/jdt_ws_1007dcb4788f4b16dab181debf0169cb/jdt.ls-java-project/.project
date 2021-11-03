@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/vng/com/gtsdk/gtpaymentkit/model/DPayload.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/OPM/sources/vng/com/gtsdk/gtpaymentkit/model/DPayload.java</location>
+		</link>
+		<link>
+			<name>src/vng/com/gtsdk/gtpaymentkit/model/ReceiptVerifyInfo.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/OPM/sources/vng/com/gtsdk/gtpaymentkit/model/ReceiptVerifyInfo.java</location>
+		</link>
+		<link>
+			<name>src/vng/com/gtsdk/gtpaymentkit/model/RewardRegistrationCode.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/OPM/sources/vng/com/gtsdk/gtpaymentkit/model/RewardRegistrationCode.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

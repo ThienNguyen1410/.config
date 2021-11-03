@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/netease/messiah/DeviceInfo.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/messiah/DeviceInfo.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/inner/pushclient/NativePushData.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/inner/pushclient/NativePushData.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/pharos/util/LogUtil.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/pharos/util/LogUtil.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/push/utils/PushLog.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/push/utils/PushLog.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/push/utils/PushSetting.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/push/utils/PushSetting.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/inner/pushclient/firebase/PushClient.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/inner/pushclient/firebase/PushClient.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/messiah/gamesdk/base/GameSDKMgr.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/messiah/gamesdk/base/GameSDKMgr.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/unisdk/gmbridge5/data/UserInfo.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/unisdk/gmbridge5/data/UserInfo.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

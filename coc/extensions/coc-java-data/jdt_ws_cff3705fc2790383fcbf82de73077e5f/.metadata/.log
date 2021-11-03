@@ -1,0 +1,630 @@
+!SESSION 2021-05-10 10:45:01.153 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Command-line arguments:  -data /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_cff3705fc2790383fcbf82de73077e5f
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.127
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.276
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.301
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.306
+!MESSAGE Initializing Java Language Server 1.1.2.202105061700
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.412
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.428
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.429
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.443
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.459
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:02.512
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.147
+!MESSAGE Try to create an invisible project for the workspace /Users/Thien/Apk/Bida/sources
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.148
+!MESSAGE Creating the Java project sources_6dde0ae7
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.168
+!MESSAGE Finished creating the Java project sources_6dde0ae7
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.410
+!MESSAGE Successfully created a workspace invisible project sources_6dde0ae7
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.428
+!MESSAGE Workspace initialized in 996ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.571
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.580
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.582
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home, enable=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.583
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:03.661
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:04.482
+!MESSAGE >> Updating classpath for project sources_6dde0ae7
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:04.876
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:09.785
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:11.597
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:17.161
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.597
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.605
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.607
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.871
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.871
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.950
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.951
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.953
+!MESSAGE Validated 2. Took 338 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.967
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.978
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.979
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.981
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.981
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:18.982
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:35.804
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:35.952
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.229
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.657
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.658
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.681
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.682
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.731
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.731
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:36.733
+!MESSAGE Validated 3. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:40.435
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:45.331
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:45.437
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:45.744
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.169
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.170
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.196
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.196
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.448
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.448
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.503
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.504
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.505
+!MESSAGE Validated 4. Took 360 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:46.629
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:45:47.436
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:50.467
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:50.886
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.309
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.309
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.324
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.324
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.454
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.454
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.519
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.519
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.521
+!MESSAGE Validated 4. Took 229 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:51.763
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:52.200
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:52.235
+!MESSAGE Reconciled 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:52.625
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:52.972
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:53.008
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:53.042
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:53.392
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:53.710
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:53.860
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.274
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.694
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.694
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.707
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.707
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.823
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.824
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.860
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.860
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.861
+!MESSAGE Validated 4. Took 182 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:54.990
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:55.397
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:55.816
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:55.817
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:55.829
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:55.829
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.031
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.032
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.068
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.068
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.069
+!MESSAGE Validated 4. Took 266 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.285
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.456
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.661
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.816
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:56.993
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.140
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.170
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.175
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.378
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.610
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.786
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.806
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:57.809
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.064
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.220
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.366
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.897
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.923
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:58.927
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:59.081
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:59.493
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:59.736
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:48:59.891
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.036
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.191
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.581
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.612
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.615
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:00.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:01.083
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:01.473
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:01.643
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:01.823
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.235
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.457
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.651
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.652
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.665
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.666
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.889
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.890
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.958
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.958
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:02.959
+!MESSAGE Validated 4. Took 323 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:20.698
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:25.472
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:25.904
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:26.493
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:27.813
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:32.258
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:32.586
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:32.777
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:49:44.313
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:57:18.676
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:57:21.221
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:57:51.750
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:58:16.220
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:58:18.436
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:58:20.661
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 10:58:21.415
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:06:23.603
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:10:14.864
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:10:15.952
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:10:16.288
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:39.414
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:39.554
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:39.821
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.237
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.238
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.248
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.249
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.336
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.337
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.365
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.366
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:40.366
+!MESSAGE Validated 4. Took 141 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:42.215
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:42.351
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:42.505
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:42.521
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:42.918
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.336
+!MESSAGE begin problem for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.337
+!MESSAGE 0 problems reported for /LogInterface.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.347
+!MESSAGE begin problem for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.347
+!MESSAGE 0 problems reported for /LoginResult.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.434
+!MESSAGE begin problem for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.435
+!MESSAGE 87 problems reported for /LoginManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.457
+!MESSAGE begin problem for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.458
+!MESSAGE 43 problems reported for /JsonHttpResponseHandler.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 11:16:43.458
+!MESSAGE Validated 4. Took 134 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:15:37.636
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:15:40.679
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:15:42.423
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:15:43.211
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:15:57.910
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:16:08.317
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:16:12.219
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:16:12.227
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:16:12.231
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-05-10 13:16:12.233
+!MESSAGE >> document/didClose

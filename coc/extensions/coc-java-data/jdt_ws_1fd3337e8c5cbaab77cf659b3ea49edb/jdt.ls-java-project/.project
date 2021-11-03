@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/CodeScannerApi.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/CodeScannerApi.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/Consts.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/Consts.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/PayConfirmCallback.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/PayConfirmCallback.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/PayStatus.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/PayStatus.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/ScannerUtils.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/ScannerUtils.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

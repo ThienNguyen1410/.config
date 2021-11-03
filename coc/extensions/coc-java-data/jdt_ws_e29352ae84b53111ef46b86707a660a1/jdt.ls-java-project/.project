@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/netease/game/MessiahNativeActivity.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/game/MessiahNativeActivity.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/game/MessiahNativeActivityBase.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/game/MessiahNativeActivityBase.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,714 @@
+!SESSION 2021-09-19 13:59:16.409 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Command-line arguments:  -data /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_208c437a07d0a9a886ffcaf9efe6f790
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.215
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.333
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.362
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.368
+!MESSAGE Initializing Java Language Server 1.1.2.202105061700
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.472
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.489
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.490
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.503
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.516
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:17.564
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.070
+!MESSAGE Workspace initialized in 579ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.109
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.115
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.117
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home, enable=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.119
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.225
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.228
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.229
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.231
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.765
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.979
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.980
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:18.983
+!MESSAGE Validated 1. Took 207 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:19.045
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:23.674
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.105
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.105
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.555
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.555
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.601
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.601
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:24.602
+!MESSAGE Validated 2. Took 96 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:27.847
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:44.920
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.350
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.797
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.797
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.835
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.835
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.868
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.868
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:45.868
+!MESSAGE Validated 3. Took 113 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:47.408
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:49.434
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:49.591
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:50.064
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:50.711
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:59:54.354
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:00:36.442
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:00:37.174
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:00:37.397
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:00:39.967
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:01:21.676
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:29.997
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.442
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.875
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.876
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.902
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.902
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.923
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.923
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.987
+!MESSAGE begin problem for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.987
+!MESSAGE 1 problems reported for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:30.988
+!MESSAGE Validated 4. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:44.217
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.021
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.151
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.302
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.460
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.606
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:45.747
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:46.090
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:07:49.595
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:00.487
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:01.555
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:02.993
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:03.576
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:04.143
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:06.525
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:07.120
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:08.231
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:08.838
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:09.160
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:09.677
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:12.229
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:14.210
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:17.361
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:17.477
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:18.485
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:19.258
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:21.677
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:22.469
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:22.920
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:23.260
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:24.912
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:27.099
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:29.710
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:31.885
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:34.915
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:35.610
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:37.296
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:37.744
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:41.499
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:44.269
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:44.522
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:45.035
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:48.368
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:48.875
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:53.593
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:09:54.701
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:10:41.621
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:11:24.661
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:11:27.211
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.038
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.147
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.476
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.908
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.909
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.928
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.929
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.955
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:18.955
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:19.006
+!MESSAGE begin problem for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:19.006
+!MESSAGE 1 problems reported for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:19.058
+!MESSAGE begin problem for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:19.058
+!MESSAGE 1 problems reported for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:19.059
+!MESSAGE Validated 5. Took 178 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.118
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.248
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.536
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.957
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.957
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.973
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.973
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.991
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:31.991
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.008
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.008
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.035
+!MESSAGE begin problem for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.036
+!MESSAGE 1 problems reported for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.080
+!MESSAGE begin problem for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.080
+!MESSAGE 1 problems reported for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:32.080
+!MESSAGE Validated 6. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.088
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.231
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.501
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.918
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.919
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.932
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.933
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.954
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.954
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.965
+!MESSAGE begin problem for /PushClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.965
+!MESSAGE 1 problems reported for /PushClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.981
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:57.981
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:58.005
+!MESSAGE begin problem for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:58.006
+!MESSAGE 1 problems reported for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:58.050
+!MESSAGE begin problem for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:58.050
+!MESSAGE 1 problems reported for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:12:58.051
+!MESSAGE Validated 7. Took 148 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:39.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:39.621
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.038
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.038
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.056
+!MESSAGE begin problem for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.056
+!MESSAGE 1 problems reported for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.077
+!MESSAGE begin problem for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.078
+!MESSAGE 1 problems reported for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.093
+!MESSAGE begin problem for /PushClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.094
+!MESSAGE The declared package "" does not match the expected package "com.netease.inner.pushclient.firebase" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.095
+!MESSAGE 2 problems reported for /PushClient.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.118
+!MESSAGE begin problem for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.119
+!MESSAGE 1 problems reported for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.142
+!MESSAGE begin problem for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.142
+!MESSAGE 1 problems reported for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.178
+!MESSAGE begin problem for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.179
+!MESSAGE 1 problems reported for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:40.179
+!MESSAGE Validated 7. Took 153 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.520
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.526
+!MESSAGE Clearing problems for /GameSDKMgr.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.529
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.532
+!MESSAGE Clearing problems for /LogUtil.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.533
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.537
+!MESSAGE Clearing problems for /PushLog.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.538
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.542
+!MESSAGE Clearing problems for /PushSetting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.544
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.548
+!MESSAGE Clearing problems for /NativePushData.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.551
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.560
+!MESSAGE Clearing problems for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:16:44.562
+!MESSAGE >> document/didClose
+!SESSION 2021-09-19 14:17:54.133 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Command-line arguments:  -data /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_208c437a07d0a9a886ffcaf9efe6f790
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-19 14:17:54.761
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.076
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.237
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.301
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.311
+!MESSAGE Initializing Java Language Server 1.1.2.202105061700
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.372
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.374
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.434
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.911
+!MESSAGE Workspace initialized in 348ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.950
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.956
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.959
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home, enable=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:55.962
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.275
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.278
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.280
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.281
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.669
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.814
+!MESSAGE begin problem for /DeviceInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.815
+!MESSAGE 1 problems reported for /DeviceInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.818
+!MESSAGE Validated 1. Took 137 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:17:56.884
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:18:07.363
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:18:07.878
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:18:09.026
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:18:09.307
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:18:53.302
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:19:21.078
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:19:21.530
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:21:15.277
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:01.942
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:02.577
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:03.415
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:03.553
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:03.740
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:04.317
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:05.489
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:23:06.358
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:24:15.625
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:24:16.662
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:24:20.047
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 14:24:22.146
+!MESSAGE >> document/documentHighlight

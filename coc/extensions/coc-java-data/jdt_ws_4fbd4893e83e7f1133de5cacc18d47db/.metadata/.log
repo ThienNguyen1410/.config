@@ -1,0 +1,1135 @@
+!SESSION 2021-09-19 13:46:41.155 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Command-line arguments:  -data /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db
+
+This is a continuation of log file /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/.metadata/.bak_0.log
+Created Time: 2021-09-19 13:46:53.000
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.000
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/test
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/test'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.001
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.001
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/test'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.001
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.001
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.001
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test/com.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.001
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/test.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.013
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/tv
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/tv'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option/format.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/exceptions.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/tv'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option/format.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/exceptions.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option/format.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/option.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/exceptions.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.014
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/tv
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/tv'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/utils.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/annotations.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/tv'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/utils.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/annotations.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/utils.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player/annotations.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media/player.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk/media.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku/ijk.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv/danmaku.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.014
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/tv.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.017
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/vn
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/vn'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng/so6wallet.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.017
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.017
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/vn'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng/so6wallet.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.017
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.017
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.017
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng/so6wallet.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.017
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com/vng.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.017
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn/com.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.017
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vn.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.089
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/vng
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/vng'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk/gtzingkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/recovery.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class.
+java.nio.file.FileSystemException: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class: Invalid argument
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:249)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1185)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.Build
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.088
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/vng
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/vng'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/network.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtextension.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/task.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/model.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/linkpreview.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/vng'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/socket.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzalokit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/helper.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/helper.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/vng'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk/gtzingkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/recovery.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class.
+java.nio.file.FileSystemException: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class: Invalid argument
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.iAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:187)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/network.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtextension.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/task.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/model.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/linkpreview.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login/adapter.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/network.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line/listener.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/line.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/adapter.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot/ViewController.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/forgot.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit/ViewController.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzingkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtextension.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/adapter.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/task.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/model.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/linkpreview.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/ViewController.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login/adapter.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/login.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+mplDelete(UnixFileSystemProvider.java:249)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1185)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/social.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login/ViewController.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/socket.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzalokit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/listener.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/helper.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/helper.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk/gtzingkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtstk.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit/social.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtgooglekit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/listener.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit/social.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtfacebookkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect/adapter.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/protect.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/recovery.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class.
+!STACK 0
+java.nio.file.FileSystemException: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums/Store.class: Invalid argument
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:249)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1185)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:154)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/enums.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/social.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support/ViewController.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/support.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login/ViewController.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/login.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core/socket.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/core.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtzalokit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/listener.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit/helper.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/gtpaymentkit.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk/helper.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com/gtsdk.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng/com.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.089
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/vng.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.095
+!MESSAGE Error occurred while deleting: /Luu Huong_33de000d/bin/zing
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:775)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/Luu Huong_33de000d/bin/zing'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng/nhatmonggiangho.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.095
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.095
+!MESSAGE Could not delete '/Luu Huong_33de000d/bin/zing'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:813)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1788)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:140)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng/nhatmonggiangho.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng.
+Contains: Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-09-19 13:46:53.095
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.095
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.095
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng/nhatmonggiangho.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.095
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing/vng.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-09-19 13:46:53.095
+!MESSAGE Could not delete: /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_4fbd4893e83e7f1133de5cacc18d47db/Luu Huong_33de000d/bin/zing.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-09-19 13:46:53.119
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Luu Huong_33de000d
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Luu Huong_33de000d/bin/hookConstructor.js)[272]: java.lang.Exception: Resource already exists on disk: '/Luu Huong_33de000d/bin/hookConstructor.js'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:329)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:539)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:392)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2021-09-19 13:46:53.119
+!MESSAGE Resource already exists on disk: '/Luu Huong_33de000d/bin/hookConstructor.js'.
+!STACK 0
+java.lang.Exception: Resource already exists on disk: '/Luu Huong_33de000d/bin/hookConstructor.js'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:329)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:539)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:392)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:294)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:212)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.910
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.927
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.928
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.931
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.931
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:19.932
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:28.749
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:28.867
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.161
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.615
+!MESSAGE begin problem for /GTPaymentManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.615
+!MESSAGE 4 problems reported for /GTPaymentManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.621
+!MESSAGE begin problem for /PaymentListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.621
+!MESSAGE 0 problems reported for /PaymentListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:29.621
+!MESSAGE Validated 2. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:31.025
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:35.501
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:35.616
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:35.914
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.365
+!MESSAGE begin problem for /GTPaymentManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.365
+!MESSAGE 4 problems reported for /GTPaymentManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.370
+!MESSAGE begin problem for /PaymentListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.371
+!MESSAGE 0 problems reported for /PaymentListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.544
+!MESSAGE begin problem for /PaymentAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.545
+!MESSAGE 83 problems reported for /PaymentAdapter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:47:36.547
+!MESSAGE Validated 3. Took 230 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:48:45.851
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:48:47.128
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:50:28.036
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:50:33.810
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:51:16.637
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:51:16.641
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-19 13:51:16.645
+!MESSAGE >> document/didClose

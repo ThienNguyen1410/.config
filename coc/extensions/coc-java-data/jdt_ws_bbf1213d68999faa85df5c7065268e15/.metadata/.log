@@ -1,0 +1,902 @@
+!SESSION 2021-07-26 09:48:41.184 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_VN
+Command-line arguments:  -data /Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_bbf1213d68999faa85df5c7065268e15
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.293
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.484
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.515
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.525
+!MESSAGE Initializing Java Language Server 1.1.2.202105061700
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.654
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.667
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.668
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.690
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.692
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.699
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.703
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.706
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home, enable=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-07-26 09:48:42.713
+!MESSAGE Failed to build workspace.
+!STACK 1
+Java Model Exception: Java Model Status [jdt.ls-java-project does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2322)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragments(JavaProject.java:2346)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.cleanupResources(ProjectsManager.java:212)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:53)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$26(JDTLanguageServer.java:834)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$51(JDTLanguageServer.java:1006)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2021-07-26 09:48:42.715
+!MESSAGE jdt.ls-java-project does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.717
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.745
+!MESSAGE Try to create an invisible project for the workspace /Users/Thien/Apk/CloudSong
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.746
+!MESSAGE Creating the Java project CloudSong_abad2bf0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:42.803
+!MESSAGE Finished creating the Java project CloudSong_abad2bf0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:43.314
+!MESSAGE Successfully created a workspace invisible project CloudSong_abad2bf0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:43.391
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:43.412
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:43.589
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:43.989
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:44.275
+!MESSAGE Workspace initialized in 932ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:44.357
+!MESSAGE >> Updating classpath for project CloudSong_abad2bf0
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:44.503
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:45.669
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:45.669
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:45.677
+!MESSAGE Validated 1. Took 773 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.135
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.198
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.200
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.201
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.342
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:46.343
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:50.261
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:51.138
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:51.975
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:52.279
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:52.456
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:52.624
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:53.178
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:55.202
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:55.867
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:56.143
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:48:59.962
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:49:03.143
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:49:05.537
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:31.988
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:39.424
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:39.719
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:49.920
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:50.141
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:50.338
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:50.974
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:50.975
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:51.037
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:51.037
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:51.040
+!MESSAGE Validated 2. Took 248 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:50:51.670
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:08.578
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:11.406
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:12.020
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:12.858
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:15.429
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:45.146
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:45.272
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:45.434
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 09:51:46.552
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:15:47.631
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:15:47.741
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:15:48.612
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:22.800
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:22.926
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.215
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.735
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.735
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.784
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.784
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.792
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.792
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:23.793
+!MESSAGE Validated 3. Took 176 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:16:47.539
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:20.197
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:20.979
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:22.202
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:22.896
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:23.873
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:24.767
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:25.220
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:25.648
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:26.263
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:26.789
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:29.768
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:31.824
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:32.149
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:32.649
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:34.658
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:45.041
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:45.374
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:45.530
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:45.675
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:46.114
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:46.548
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:46.722
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:48.309
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:48.621
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:48.783
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:48.931
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.075
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.223
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.381
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.517
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.670
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.830
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:49.962
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:50.122
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:50.273
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:50.434
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:50.605
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:50.749
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:51.041
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:51.395
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:51.515
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:51.659
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:52.155
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:52.325
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:19:53.280
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:26:30.306
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:26:30.487
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:26:35.115
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:26:38.431
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:26:39.255
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:03.158
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:09.271
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:09.421
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:09.680
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.165
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.165
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.222
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.223
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.253
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.254
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.263
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.263
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.263
+!MESSAGE Validated 4. Took 180 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.469
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.686
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:10.900
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:27:45.569
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:04.200
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:05.701
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:06.749
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:07.258
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:11.978
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:13.295
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:14.508
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:16.836
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:34:18.235
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:37:56.360
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:37:58.255
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:00.820
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:01.100
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:33.918
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:34.491
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:35.130
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:35.784
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:35.902
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:36.027
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:36.226
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:38.638
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:39.976
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:38:40.181
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:39:09.475
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:39:12.763
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:21.259
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:21.994
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:37.971
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:38.133
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:38.616
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:38.752
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:39.061
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:41.052
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:41.284
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:41.601
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:40:42.533
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:43.714
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:44.768
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:45.285
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:45.957
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:46.790
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:47.090
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:47.526
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:48.407
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:46:49.409
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:00.266
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:00.405
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:00.675
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.132
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.135
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.163
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.163
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.176
+!MESSAGE begin problem for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.177
+!MESSAGE 1 problems reported for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.191
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.191
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.198
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.198
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:49:01.198
+!MESSAGE Validated 5. Took 119 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:53:10.412
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:57:39.193
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:57:39.336
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:58:27.221
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:32.236
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:35.393
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:35.686
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:36.409
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:37.802
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:38.319
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:39.429
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 10:59:40.834
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:25.923
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:26.149
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:26.493
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:27.349
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:28.205
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:28.532
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:29.231
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:29.768
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:30.116
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:31.016
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:33.646
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:34.915
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:00:35.045
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:01:01.591
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:01:03.099
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:01:04.470
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:01:05.286
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:01:05.835
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:15.191
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:15.635
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:15.790
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:16.286
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:18.018
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 11:09:49.073
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:33.462
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:33.882
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.332
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.332
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.358
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.358
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.368
+!MESSAGE begin problem for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.368
+!MESSAGE 1 problems reported for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.378
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.378
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.383
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.383
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:34.384
+!MESSAGE Validated 5. Took 96 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:36.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:36.627
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.076
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.077
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.101
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.101
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.120
+!MESSAGE begin problem for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.121
+!MESSAGE 1 problems reported for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.138
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.138
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.145
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.145
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 13:15:37.146
+!MESSAGE Validated 5. Took 116 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:16.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:16.513
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:16.558
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:16.786
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:16.993
+!MESSAGE Reconciled 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:17.216
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:17.383
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:17.500
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:17.921
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.425
+!MESSAGE begin problem for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.426
+!MESSAGE 100 problems reported for /GameMainActivity.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.472
+!MESSAGE begin problem for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.473
+!MESSAGE 96 problems reported for /DataCollector.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.490
+!MESSAGE begin problem for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.491
+!MESSAGE 1 problems reported for /PaymentInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.511
+!MESSAGE begin problem for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.512
+!MESSAGE 1 problems reported for /UserInfo.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.521
+!MESSAGE begin problem for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.521
+!MESSAGE 6 problems reported for /MainApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-26 23:26:18.522
+!MESSAGE Validated 5. Took 196 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-07-27 09:57:06.401
+!MESSAGE >> document/documentHighlight

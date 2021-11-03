@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/Thien/.config/coc/extensions/coc-java-data/jdt_ws_c312561283fa689d8dec5f93ebcac7e0/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+2353178382.index

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/BasicNameValuePair.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/BasicNameValuePair.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/FetchUrl.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/FetchUrl.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/FetchUrlImpHurlStack.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/FetchUrlImpHurlStack.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/FetchUrlStack.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/FetchUrlStack.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/NameValuePair.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/NameValuePair.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/NetConsts.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/NetConsts.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/NetUtils.java</name>
+			<type>1</type>
+			<location>//Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/NetUtils.java</location>
+		</link>
+		<link>
+			<name>src/com/netease/mpay/oversea/scan/server/net/SntpClient.java</name>
+			<type>1</type>
+			<location>/Users/Thien/Apk/Luu Huong/com/netease/mpay/oversea/scan/server/net/SntpClient.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
